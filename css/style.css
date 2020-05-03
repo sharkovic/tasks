@@ -1,0 +1,789 @@
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    body {
+        font-family: 'Alegreya Sans', sans-serif;
+        color: black;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .wrap {
+        max-width: 1100px;
+        width: 90%;
+        margin: 0 auto;
+        -webkit-box-shadow: -1px -1px 12px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow: -1px -1px 12px 0px rgba(50, 50, 50, 0.75);
+        box-shadow: -1px -1px 12px 0px rgba(50, 50, 50, 0.75);
+    }
+    
+    .button {
+        display: inline-block;
+        font-size: 19px;
+        font-weight: 800;
+        text-transform: uppercase;
+        padding: 18px 34px 16px 35px;
+        border-radius: 45px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    .button_bg-w {
+        background-color: white;
+        color: #0f5a47;
+    }
+    
+    .button_bg-green {
+        background-color: #0f5a47;
+        color: white;
+    }
+    
+    .title {
+        font-size: 48px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    
+    .title_hidden {
+        display: none;
+    }
+    
+    .title_f-s-60px {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    
+    .title_color-black {
+        color: black;
+    }
+    
+    .description {
+        font-size: 18px;
+        font-weight: 400;
+        color: #666666;
+    }
+    
+    .description_color-white {
+        color: white;
+    }
+    
+    .description_f-s-21px {
+        font-size: 21px;
+    }
+    /* header start*/
+    
+    .first-screen {
+        position: relative;
+        background-color: #61c4d9;
+        padding: 25px 80px 45px 80px;
+        color: white;
+        font-weight: 400;
+    }
+    
+    .main-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 108px;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 53px;
+        height: 38px;
+    }
+    
+    .contact__tel {
+        text-decoration: none;
+        color: inherit;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+    
+    .contact__icon {
+        display: inline-block;
+        background-image: url(/image/phone.png);
+        background-repeat: no-repeat;
+        width: 12px;
+        height: 11px;
+        margin-right: 6px;
+        font-family: "Alegreya Sans";
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .navbar__menu {
+        list-style: none;
+        display: flex;
+        width: 634px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .navbar__link {
+        display: inline-block;
+        padding: 0 10px;
+        color: inherit;
+        font-size: 18px;
+        line-height: 1.2;
+        transition: 0.5s;
+        position: relative;
+    }
+    
+    .navbar__link:after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 10px;
+        width: 0;
+        height: 1px;
+        background-color: currentColor;
+        transition: width 0.5s ease-out;
+    }
+    
+    .navbar__link:hover {
+        color: #FF8C00;
+    }
+    
+    .navbar__link:hover:after {
+        width: calc(100% - 20px);
+    }
+    /* header end */
+    
+    .first-section-info-wrap {
+        margin-bottom: 68px;
+        width: 342px;
+        color: inherit;
+    }
+    
+    .info__title {
+        margin-bottom: 8px;
+    }
+    
+    .info__description {
+        margin-bottom: 32px;
+    }
+    
+    .privilege-list {
+        max-width: 465px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .privilege-list__item {
+        display: flex;
+    }
+    
+    .privilege-list__icon {
+        width: 50px;
+        height: 40px;
+    }
+    
+    .privilege-list__description {
+        max-width: 84px;
+        margin-left: 7px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .radio-buttons {
+        position: absolute;
+        min-height: 181px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        top: 217px;
+        right: 51px;
+        z-index: 1;
+    }
+    
+    .radio-buttons input {
+        display: none;
+    }
+    
+    .radio-buttons label {
+        cursor: pointer;
+        border-radius: 50%;
+        position: relative;
+        height: 16px;
+        width: 16px;
+    }
+    
+    label .pointer {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        width: 6px;
+        height: 6px;
+        background: white;
+        border-radius: 25px;
+    }
+    
+    #point1:checked~label:nth-of-type(1),
+    #point2:checked~label:nth-of-type(2),
+    #point3:checked~label:nth-of-type(3),
+    #point4:checked~label:nth-of-type(4),
+    #point5:checked~label:nth-of-type(5),
+    #point6:checked~label:nth-of-type(6),
+    #point7:checked~label:nth-of-type(7),
+    #point8:checked~label:nth-of-type(8),
+    #point9:checked~label:nth-of-type(9) {
+        border: 1px solid white;
+    }
+    
+    .screen-batons {
+        position: absolute;
+        right: 2.6%;
+        top: 8.7%;
+    }
+    /* first section end */
+    /* --------------------------------------------------------- */
+    /* section my chocco start */
+    
+    .why-chocco {
+        min-height: 697px;
+        padding: 100px 80px 134px 80px;
+    }
+    
+    .why-chocco-info-wrap {
+        text-align: center;
+        width: 410px;
+        margin: 0 auto;
+        margin-bottom: 57px;
+    }
+    
+    .advantage {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+    
+    .advantage__item {
+        text-align: center;
+        padding: 0px 30px;
+    }
+    
+    .advantage__item:nth-child(1) {
+        width: 254px;
+    }
+    
+    .advantage__item:nth-child(2) {
+        width: 306px;
+    }
+    
+    .advantage__item:nth-child(3) {
+        width: 258px
+    }
+    
+    .bz-content .advantage__item:nth-child(1) {
+        width: 234px;
+    }
+    
+    .bz-content .advantage__item:nth-child(2) {
+        width: 246px;
+    }
+    
+    .bz-content .advantage__item:nth-child(3) {
+        width: 239px;
+    }
+    
+    .advantage__item:first-child {
+        padding-left: 0px;
+    }
+    
+    .advantage__item:last-child {
+        padding-right: 0px;
+    }
+    
+    .advantage__dots {
+        width: 67px;
+        height: 21px;
+        margin-top: 52px;
+    }
+    
+    .advantage__icon {
+        /* padding-left: 65px; */
+        margin-bottom: 35px;
+        position: relative;
+    }
+    
+    .circle-grey {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        background-color: #f2f5f4;
+        border-radius: 50%;
+        margin: 0 auto;
+        animation-duration: 5s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+        animation-duration: 3s;
+    }
+    
+    .bz-content .circle-grey {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .delay-6s {
+        animation-delay: 6s;
+    }
+    
+    .delay-7s {
+        animation-delay: 7s;
+    }
+    
+    .delay-8s {
+        animation-delay: 8s;
+    }
+    
+    .icon {
+        font-size: 70px;
+    }
+    
+    .advantage-wrap {
+        position: relative;
+    }
+    
+    .circle-block {
+        display: flex;
+        width: 400px;
+        justify-content: space-between;
+        position: absolute;
+        top: 77px;
+        left: 273px;
+    }
+    
+    .circles {
+        display: flex;
+        width: 66px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .elem {
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background-color: #f2f5f4;
+    }
+    
+    .elem_medium {
+        width: 21px;
+        height: 21px;
+    }
+    
+    .advantage__title {
+        font-size: 27px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    
+    .advantage__text {
+        color: #666666;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    
+    .bz-content {
+        box-sizing: content-box;
+    }
+    
+    .bz-content *,
+    .bz-content *::before,
+    .bz-content *::after {
+        box-sizing: inherit;
+    }
+    
+    .bz-border {
+        box-sizing: border-box;
+    }
+    
+    .bz-border *,
+    .bz-border *::before,
+    .bz-border *::after {
+        box-sizing: inherit;
+    }
+    /* section my chocco end */
+    /* --------------------------------------------------------- */
+    /* section slider start */
+    
+    .slider {
+        padding: 112px 80px 104px 80px;
+        position: relative;
+        width: 100%;
+        min-height: 654px;
+        background-color: #f8faf9;
+    }
+    
+    .slide {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .slide-info {
+        max-width: 405px;
+    }
+    
+    .product__name {
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 41px;
+    }
+    
+    .product__subtitle {
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 33px;
+    }
+    
+    .product__structure {
+        max-width: 339px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #666666;
+        margin-bottom: 41px;
+    }
+    
+    .product__feature {
+        list-style: none;
+        margin-bottom: 35px;
+        width: 221px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+    
+    .product__order-block {
+        display: flex;
+        align-items: center;
+    }
+    
+    .product__price {
+        font-size: 60px;
+        font-weight: 300;
+        line-height: 60px;
+        text-transform: uppercase;
+        margin-right: 31px;
+    }
+    
+    .arrow-left {
+        background-image: url(/image/left-arrow.png);
+        position: absolute;
+        top: 48%;
+        left: 5%;
+        width: 13px;
+        height: 28px;
+        cursor: pointer;
+    }
+    
+    .arrow-right {
+        background-image: url(/image/right-arrow.png);
+        position: absolute;
+        top: 48%;
+        right: 5%;
+        width: 15px;
+        height: 28px;
+        cursor: pointer;
+    }
+    
+    .slider__uzor {
+        position: absolute;
+        right: 0%;
+        top: 63.6%;
+        z-index: 1;
+    }
+    
+    .slider__chernika {
+        position: absolute;
+        right: 1.3%;
+        top: 90%;
+        z-index: 1;
+    }
+    /* section slider end */
+    /* --------------------------------------------------------- */
+    /* section command start */
+    
+    .command {
+        width: 100%;
+        min-height: 766px;
+        background-color: white;
+        padding: 109px 80px;
+    }
+    
+    .command-info-wrap {
+        margin-bottom: 68px;
+        text-align: center;
+    }
+    
+    .command-list {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: space-between;
+    }
+    
+    .command-list__worker {
+        text-align: center;
+        width: 223px;
+    }
+    
+    .command-list__worker_mg-top {
+        margin-top: 57px;
+    }
+    /* .worker:nth-child(3) {
+    margin-top: -7px;
+} */
+    /* .worker:nth-child(4) {
+    margin-top: 44px;
+} */
+    
+    .command-list__photo {
+        padding-bottom: 18px;
+    }
+    
+    .command-list__data {
+        font-size: 21px;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 7px;
+    }
+    
+    .command-list__data:hover {
+        cursor: pointer;
+    }
+    
+    .command-list__name {
+        margin-right: 6px;
+    }
+    
+    .command-list__poligon {
+        border-style: solid;
+        border-width: 6px 4.5px 0 4.5px;
+        border-color: green transparent transparent transparent;
+    }
+    
+    .command-list__poligon_active {
+        transform: rotate(180deg);
+    }
+    
+    .command-list__role {
+        font-size: 18px;
+        font-weight: 400;
+        color: #323232;
+    }
+    
+    .command-list__text {
+        font-size: 18px;
+        font-weight: 300;
+        color: #666666
+    }
+    /* section my chocco end */
+    /* --------------------------------------------------------- */
+    /* section menu start */
+    
+    .menu {
+        position: relative;
+        width: 100%;
+        height: 655px;
+        background-color: #2f3234;
+    }
+    
+    .menu__malina {
+        position: absolute;
+        top: -11%;
+        left: 3%;
+    }
+    
+    .order-section {
+        width: 100%;
+        min-height: 737px;
+        padding: 107px 80px 85px 80px;
+        background-image: url(/image/order-section-border.png);
+        color: #0f5a47;
+        font-size: 18px;
+    }
+    
+    .order-section-info-wrap {
+        margin-bottom: 54px;
+        text-align: center;
+    }
+    
+    .order-form {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    
+    .text-block__title {
+        margin-bottom: 7px;
+        display: block;
+    }
+    
+    .text-block__input {
+        width: 220px;
+        height: 59px;
+        padding: 0px 10px;
+    }
+    
+    .text-block__input_long {
+        width: 460px;
+    }
+    
+    .text-block__input_short {
+        width: 100px;
+    }
+    
+    .text-block__textarea {
+        width: 460px;
+        height: 187px;
+        padding: 10px;
+        resize: none
+    }
+    
+    .radio-check__radio {
+        display: none;
+    }
+    
+    .radio-check__label {
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+        padding-left: 35px;
+        margin-right: 23px;
+    }
+    
+    .radio-check__radio:checked+label:before {
+        content: "";
+        width: 13px;
+        height: 13px;
+        background-color: green;
+        border-radius: 50%;
+        border: 6px solid white;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    
+    .radio-check__label:before {
+        content: "";
+        width: 25px;
+        height: 25px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    
+    .check__checkbox {
+        display: none;
+    }
+    
+    .check__label {
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+        padding-left: 35px;
+        margin-right: 23px;
+    }
+    
+    .check__checkbox:checked+label:before {
+        content: url(/image/chek.png);
+        text-align: center;
+    }
+    
+    .check__label:before {
+        content: "";
+        width: 25px;
+        height: 25px;
+        background-color: white;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    
+    .user-buttons {
+        width: 252px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .reset {
+        color: #0f5a47;
+        cursor: pointer;
+        background-color: inherit;
+        border: none;
+    }
+    
+    .delay-1-5s {
+        animation-delay: 1.5s;
+    }
+    
+    .delay-4-5s {
+        animation-delay: 4.5s;
+    }
+    
+    .delay-6s {
+        animation-delay: 6s;
+        animation-fill-mode: both;
+    }
+    
+    @keyframes circleAnimation {
+        from {
+            width: 13px;
+            height: 13px;
+        }
+        to {
+            width: 21px;
+            height: 21px;
+        }
+    }
+    
+    .middle-circle {
+        animation-name: circleAnimation;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse
+    }
+    
+    .small-circle {
+        animation-name: circleAnimation;
+        animation-delay: 2s;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate
+    }
+    
+    .img-animation {
+        transition: all 1s ease-out;
+    }
+    
+    .img-animation:hover {
+        transform: scale(1.2) rotate(4deg);
+        cursor: pointer;
+    }
