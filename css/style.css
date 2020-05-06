@@ -508,7 +508,7 @@
     }
     
     .arrow-left {
-        background-image: url(/image/left-arrow.png);
+        background-image: url(../image/left-arrow.png);
         position: absolute;
         top: 48%;
         left: 5%;
@@ -518,7 +518,7 @@
     }
     
     .arrow-right {
-        background-image: url(/image/right-arrow.png);
+        background-image: url(../image/right-arrow.png);
         position: absolute;
         top: 48%;
         right: 5%;
