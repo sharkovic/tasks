@@ -633,7 +633,7 @@
     .order-section {
         width: 100%;
         padding: 107px 80px 85px 80px;
-        background-image: url(/image/order-section-border.png);
+        background-image: url(../image/order-section-border.png);
         color: #0f5a47;
     }
     
