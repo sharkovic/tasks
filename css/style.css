@@ -745,7 +745,7 @@
     /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
     
     .check__checkbox:checked+label:before {
-        content: url(/image/chek.png);
+        content: url(../image/chek.png);
         text-align: center;
     }
     /*CSS - уровень 2 (сложные селекторы) - Задание 1*/
