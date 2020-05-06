@@ -14,22 +14,23 @@
 
 <body>
     <div class="wrap">
+
         <div class="first-screen">
             <header class="main-header">
                 <img src="image/logo.png" alt="logo" class="logo">
                 <nav class="navbar">
                     <ul class="navbar__menu">
                         <li class="navbar__item">
-                            <a class="navbar__link" href="#"> О нас</a>
+                            <a class="navbar__link" href="#why-chocco"> О нас</a>
                         </li>
                         <li class="navbar__item">
-                            <a class="navbar__link" href="#">Батончики</a>
+                            <a class="navbar__link" href="#slider">Батончики</a>
                         </li>
                         <li class="navbar__item">
-                            <a class="navbar__link" href="#">Команда</a>
+                            <a class="navbar__link" href="#command">Команда</a>
                         </li>
                         <li class="navbar__item">
-                            <a class="navbar__link" href="#">Меню</a>
+                            <a class="navbar__link" href="#menu">Меню</a>
                         </li>
                         <li class="navbar__item">
                             <a class="navbar__link" href="#">Отзывы</a>
@@ -43,46 +44,89 @@
                     </ul>
                 </nav>
                 <div class="contact">
-                    <a class="contact__tel" href="tel:+78009039090"><span class="contact__icon"></span>8 800 903 90 90</a>
+                    <a class="contact__tel" href="tel:+78009039090">8 800 903 90 90</a>
                 </div>
-            </header>
+                <!-- <div class="burger-menu">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <input type="radio" name="pay" id="burger-on">
+                    <input type="radio" name="pay" id="burger-off">
+                </div> -->
 
-            <article class="chocco">
-                <div class="first-section-info-wrap">
-                    <div class="info">
-                        <div class="info__title">
-                            <h1 class="title title_f-s-60px">натуральные шоколадные батончики</h1>
-                        </div>
-                        <div class="info__description">
-                            <p class="description description_f-s-21px description_color-white">Наши батончики идеально подходят для тех, кто следит за своим здоровьем</p>
-                        </div>
-                        <div class="info__button">
-                            <a href="#" class="button button_bg-w">Заказать</a>
-                        </div>
+                <div id="menuToggle">
+                    <input id="qwe" name="qwe" type="checkbox" />
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+
+                    <div class="wrap-dark">
+                        <nav class="navbar">
+                            <ul class="navbar__menu">
+                                <li class="navbar__item">
+                                    <a class="navbar__link" href="#why-chocco"> О нас</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a class="navbar__link" href="#slider">Батончики</a>
+
+                                </li>
+                                <li class="navbar__item">
+                                    <a class="navbar__link" href="#command">Команда</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a class="navbar__link" href="#menu">Меню</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a class="navbar__link" href="#">Отзывы</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a class="navbar__link" href="#">Как мы работаем</a>
+                                </li>
+                                <li class="navbar__item">
+                                    <a class="navbar__link" href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
-                <ul class="privilege-list">
-                    <li class="privilege-list__item">
-                        <img class="privilege-list__icon" src="image/icon-3.png" alt="натуральный продукт">
-                        <p class="privilege-list__description">
-                            100% натуральный продукт
-                        </p>
-                    </li>
-                    <li class="privilege-list__item">
-                        <img class="privilege-list__icon" src="image/icon-2.png" alt="доставка">
-                        <p class="privilege-list__description">
-                            3-5 дней доставка по РФ
-                        </p>
-                    </li>
-                    <li class="privilege-list__item">
-                        <img class="privilege-list__icon" src="image/icon-1.png" alt="не портит фигуру">
-                        <p class="privilege-list__description">
-                            Не портит фигуру
-                        </p>
-                    </li>
-                </ul>
+            </header>
+            <img src="image/batons.png" alt="батончики" class="screen-batons">
 
-                <div class="radio-buttons">
+            <div class="first-section-info-wrap">
+                <div class="info">
+                    <div class="info__title">
+                        <h1 class="title title_f-s-60px">натуральные шоколадные батончики</h1>
+                    </div>
+                    <div class="info__description">
+                        <p class="description description_f-s-21px description_color-white">Наши батончики идеально подходят для тех, кто следит за своим здоровьем</p>
+                    </div>
+                    <div class="info__button">
+                        <a href="#order-section" class="button button_bg-w">Заказать</a>
+                    </div>
+                </div>
+            </div>
+            <ul class="privilege-list">
+                <li class="privilege-list__item">
+                    <img class="privilege-list__icon" src="image/icon-3.png" alt="натуральный продукт">
+                    <span class="privilege-list__description">
+                            100% натуральный продукт
+                        </span>
+                </li>
+                <li class="privilege-list__item">
+                    <img class="privilege-list__icon" src="image/icon-2.png" alt="доставка">
+                    <span class="privilege-list__description">
+                            3-5 дней доставка по РФ
+                        </span>
+                </li>
+                <li class="privilege-list__item">
+                    <img class="privilege-list__icon" src="image/icon-1.png" alt="не портит фигуру">
+                    <span class="privilege-list__description">
+                            Не портит фигуру
+                        </span>
+                </li>
+            </ul>
+
+            <!-- <div class="radio-buttons">
                     <input type="radio" name="slides" id="point1" checked>
                     <input type="radio" name="slides" id="point2">
                     <input type="radio" name="slides" id="point3">
@@ -102,9 +146,9 @@
                     <label for="point7"><span class="pointer"></span></label>
                     <label for="point8"><span class="pointer"></span></label>
                     <label for="point9"><span class="pointer"></span></label>
-                </div>
-                <img src="image/batons.png" alt="батончики" class="screen-batons">
-            </article>
+                </div> -->
+
+
 
         </div>
         <main class="main-content">
@@ -122,133 +166,73 @@
                 </div>
                 <section class="advantage-block">
                     <h2 class="title title_hidden">Преимущества продукции</h2>
-                    <div class="bz-content">
-                        <div class="advantage-wrap">
-                            <div class="circle-block ">
-                                <div class="circles">
-                                    <div class="elem "></div>
-                                    <div class="elem elem_medium m"></div>
-                                    <div class="elem "></div>
-                                </div>
-                                <div class="circles">
-                                    <div class="elem "></div>
-                                    <div class="elem elem_medium "></div>
-                                    <div class="elem "></div>
-                                </div>
+
+                    <div class="advantage-wrap">
+                        <div class="circle-block animated fadeInDown delay-5s">
+                            <div class="circles">
+                                <div class="elem small-circle"></div>
+                                <div class="elem elem_medium middle-circle"></div>
+                                <div class="elem small-circle"></div>
                             </div>
-                            <ul class="advantage">
-                                <li class="advantage__item ">
-                                    <!-- <img src="image/polezno.png" alt="полезно" class="advantage__icon"> -->
-                                    <div class="advantage__icon">
-                                        <div class="circle-grey ">
-                                            <!-- <i class="icon-1 icon"></i> -->
-                                            <img src="image/polezno.png" alt="полезно">
-                                        </div>
-
-                                    </div>
-                                    <p class="advantage__title">Полезно</p>
-                                    <p class="advantage__text">Натуральность - ключевое качество нашей продукции. Мы используем только природные ингредиенты.
-                                    </p>
-                                </li>
-                                <!-- <li class="advantage__item"><svg xmlns="http://www.w3.org/2000/svg" class="advantage__dots" viewBox="0 0 67 21"><g><g><path fill="#f2f5f4" d="M33.5 0C39.299 0 44 4.7 44 10.5 44 16.297 39.299 21 33.5 21S23 16.297 23 10.5C23 4.7 27.701 0 33.5 0zm27 4a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13zm-54 0a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13z"/></g></g></svg></li> -->
-
-                                <li class="advantage__item">
-                                    <!-- <img src="image/vkusno.png" alt="вкусно" class="advantage__icon"> -->
-                                    <div class="advantage__icon ">
-                                        <div class="circle-grey ">
-                                            <!-- <i class="icon-3 icon"></i> -->
-                                            <img src="image/vkusno.png" alt="вкусно">
-                                        </div>
-
-                                    </div>
-                                    <p class="advantage__title">Вкусно</p>
-                                    <p class="advantage__text">Нежный, ненавязчивый, изысканный – так клиенты описывают вкусовые качества наших батончиков.
-                                    </p>
-                                </li>
-                                <!-- <li class="advantage__item"><svg xmlns="http://www.w3.org/2000/svg" class="advantage__dots" viewBox="0 0 67 21"><g><g><path fill="#f2f5f4" d="M33.5 0C39.299 0 44 4.7 44 10.5 44 16.297 39.299 21 33.5 21S23 16.297 23 10.5C23 4.7 27.701 0 33.5 0zm27 4a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13zm-54 0a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13z"/></g></g></svg></li> -->
-
-                                <li class="advantage__item">
-                                    <!-- <img src="image/pitatelno.png" alt="питательно" class="advantage__icon"> -->
-                                    <div class="advantage__icon">
-                                        <div class="circle-grey">
-                                            <!-- <i class="icon-2 icon"></i> -->
-                                            <img src="image/pitatelno.png" alt="питательно">
-                                        </div>
-                                    </div>
-                                    <p class="advantage__title">Питательно</p>
-                                    <p class="advantage__text">Высокое содержание качественного белка, а также всех необходимых витаминов и минералов.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="bz-border">
-                        <div class="advantage-wrap">
-                            <div class="circle-block ">
-                                <div class="circles">
-                                    <div class="elem"></div>
-                                    <div class="elem elem_medium"></div>
-                                    <div class="elem "></div>
-                                </div>
-                                <div class="circles">
-                                    <div class="elem "></div>
-                                    <div class="elem elem_medium "></div>
-                                    <div class="elem"></div>
-                                </div>
+                            <div class="circles">
+                                <div class="elem small-circle"></div>
+                                <div class="elem elem_medium middle-circle"></div>
+                                <div class="elem small-circle"></div>
                             </div>
-                            <ul class="advantage">
-                                <li class="advantage__item">
-                                    <!-- <img src="image/polezno.png" alt="полезно" class="advantage__icon"> -->
-                                    <div class="advantage__icon">
-                                        <div class="circle-grey">
-                                            <!-- <i class="icon-1 icon"></i> -->
-                                            <img src="image/polezno.png" alt="полезно">
-                                        </div>
-
-                                    </div>
-                                    <p class="advantage__title">Полезно</p>
-                                    <p class="advantage__text">Натуральность - ключевое качество нашей продукции. Мы используем только природные ингредиенты.
-                                    </p>
-                                </li>
-                                <!-- <li class="advantage__item"><svg xmlns="http://www.w3.org/2000/svg" class="advantage__dots" viewBox="0 0 67 21"><g><g><path fill="#f2f5f4" d="M33.5 0C39.299 0 44 4.7 44 10.5 44 16.297 39.299 21 33.5 21S23 16.297 23 10.5C23 4.7 27.701 0 33.5 0zm27 4a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13zm-54 0a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13z"/></g></g></svg></li> -->
-
-                                <li class="advantage__item">
-                                    <!-- <img src="image/vkusno.png" alt="вкусно" class="advantage__icon"> -->
-                                    <div class="advantage__icon ">
-                                        <div class="circle-grey">
-                                            <!-- <i class="icon-3 icon"></i> -->
-                                            <img src="image/vkusno.png" alt="вкусно">
-                                        </div>
-
-                                    </div>
-                                    <p class="advantage__title">Вкусно</p>
-                                    <p class="advantage__text">Нежный, ненавязчивый, изысканный – так клиенты описывают вкусовые качества наших батончиков.
-                                    </p>
-                                </li>
-                                <!-- <li class="advantage__item"><svg xmlns="http://www.w3.org/2000/svg" class="advantage__dots" viewBox="0 0 67 21"><g><g><path fill="#f2f5f4" d="M33.5 0C39.299 0 44 4.7 44 10.5 44 16.297 39.299 21 33.5 21S23 16.297 23 10.5C23 4.7 27.701 0 33.5 0zm27 4a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13zm-54 0a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13z"/></g></g></svg></li> -->
-
-                                <li class="advantage__item">
-                                    <!-- <img src="image/pitatelno.png" alt="питательно" class="advantage__icon"> -->
-                                    <div class="advantage__icon">
-                                        <div class="circle-grey ">
-                                            <!-- <i class="icon-2 icon"></i> -->
-                                            <img src="image/pitatelno.png" alt="питательно">
-                                        </div>
-                                    </div>
-                                    <p class="advantage__title">Питательно</p>
-                                    <p class="advantage__text">Высокое содержание качественного белка, а также всех необходимых витаминов и минералов.
-                                    </p>
-                                </li>
-                            </ul>
                         </div>
+                        <ul class="advantage">
+                            <li class="advantage__item animated fadeInDown delay-1-5s">
+                                <!-- <img src="image/polezno.png" alt="полезно" class="advantage__icon"> -->
+                                <div class="advantage__icon">
+                                    <div class="circle-grey animated flipInY infinite delay-6s">
+                                        <!-- <i class="icon-1 icon"></i> -->
+                                        <img src="image/polezno.png" alt="полезно">
+                                    </div>
+
+                                </div>
+                                <p class="advantage__title">Полезно</p>
+                                <p class="advantage__text">Натуральность - ключевое качество нашей продукции. Мы используем только природные ингредиенты.
+                                </p>
+                            </li>
+                            <!-- <li class="advantage__item"><svg xmlns="http://www.w3.org/2000/svg" class="advantage__dots" viewBox="0 0 67 21"><g><g><path fill="#f2f5f4" d="M33.5 0C39.299 0 44 4.7 44 10.5 44 16.297 39.299 21 33.5 21S23 16.297 23 10.5C23 4.7 27.701 0 33.5 0zm27 4a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13zm-54 0a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13z"/></g></g></svg></li> -->
+
+                            <li class="advantage__item animated fadeInDown delay-3s">
+                                <!-- <img src="image/vkusno.png" alt="вкусно" class="advantage__icon"> -->
+                                <div class="advantage__icon ">
+                                    <div class="circle-grey animated flipInY infinite delay-7s">
+                                        <!-- <i class="icon-3 icon"></i> -->
+                                        <img src="image/vkusno.png" alt="вкусно">
+                                    </div>
+
+                                </div>
+                                <p class="advantage__title">Вкусно</p>
+                                <p class="advantage__text">Нежный, ненавязчивый, изысканный – так клиенты описывают вкусовые качества наших батончиков.
+                                </p>
+                            </li>
+                            <!-- <li class="advantage__item"><svg xmlns="http://www.w3.org/2000/svg" class="advantage__dots" viewBox="0 0 67 21"><g><g><path fill="#f2f5f4" d="M33.5 0C39.299 0 44 4.7 44 10.5 44 16.297 39.299 21 33.5 21S23 16.297 23 10.5C23 4.7 27.701 0 33.5 0zm27 4a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13zm-54 0a6.5 6.5 0 1 1 0 13 6.5 6.5 0 0 1 0-13z"/></g></g></svg></li> -->
+
+                            <li class="advantage__item animated fadeInDown delay-4-5s">
+                                <!-- <img src="image/pitatelno.png" alt="питательно" class="advantage__icon"> -->
+                                <div class="advantage__icon">
+                                    <div class="circle-grey animated flipInY infinite delay-8s">
+                                        <!-- <i class="icon-2 icon"></i> -->
+                                        <img src="image/pitatelno.png" alt="питательно">
+                                    </div>
+                                </div>
+                                <p class="advantage__title">Питательно</p>
+                                <p class="advantage__text">Высокое содержание качественного белка, а также всех необходимых витаминов и минералов.
+                                </p>
+                            </li>
+                        </ul>
                     </div>
+
                 </section>
             </article>
-            <section class="slider">
+            <section class="slider" id="slider">
                 <h2 class="title title_hidden">Слайдер</h2>
 
                 <div class="slide">
-                    <img src="image/4-layers.png" alt="батончик морские водоросли" class="picture ">
+                    <img src="image/4-layers.png" alt="батончик морские водоросли" class="picture">
                     <div class="slide-info">
                         <div class="product">
                             <p class="product__name">Батончик “Морские водоросли”</p>
@@ -267,7 +251,7 @@
                             <div class="product__order-block">
                                 <p class="product__price">140 ₽</p>
                                 <div class="product__order-btn">
-                                    <a href="#" class="button button_bg-green">Заказать</a>
+                                    <a href="#order-section" class="button button_bg-green">Заказать</a>
                                 </div>
                             </div>
                         </div>
@@ -275,10 +259,10 @@
                 </div>
                 <div class="arrow-left"></div>
                 <div class="arrow-right"></div>
-                <img src="image/fruits/uzor-list.png" alt="Узор" class="slider__uzor">
-                <img src="image/fruits/chernika.png" alt="Черника" class="slider__chernika">
+                <!-- <img src="image/fruits/uzor-list.png" alt="Узор" class="slider__uzor"> -->
+                <img src="image/fruits/chernika.png" alt="Черника" class="slider__chernika img-animation">
             </section>
-            <section class="command">
+            <section class="command" id="command">
                 <div class="command-info-wrap">
                     <div class="info">
                         <div class="info__title">
@@ -341,11 +325,11 @@
                     </li>
                 </ul>
             </section>
-            <section class="menu">
+            <section class="menu" id="menu">
                 <h2 class="title title_hidden">Меню</h2>
-                <img src="image/fruits/malina.png" alt="Малина" class="menu__malina">
+                <img src="image/fruits/malina.png" alt="Малина" class="menu__malina img-animation">
             </section>
-            <section class="order-section">
+            <section class="order-section" id="order-section">
                 <div class="order-section-info-wrap">
                     <div class="info">
                         <div class="info__title">
