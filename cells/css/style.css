@@ -1,0 +1,25 @@
+.container-first .cell {
+    text-align: center;
+    padding: 10px;
+}
+
+.main-header {
+    background-color: green;
+}
+
+.sidebar-left {
+    background-color: blue;
+}
+
+.sidebar-right {
+    background-color: blueviolet;
+}
+
+.main-footer {
+    background-color: coral;
+}
+
+.menu-link {
+    color: white;
+    font-weight: bold;
+}
