@@ -28,6 +28,7 @@
 .bot-part-main-header {
     display: flex;
     width: 100%;
+    padding-right: 8px;
 }
 
 .contact-container {

@@ -1,7 +1,7 @@
 .button_large {
-    font-size: 1.5rem;
-    padding-top: 15px;
-    max-width: 272px;
     height: 60px;
-    background: url(/css/button/theme/button-large.svg) no-repeat;
+    max-width: 255px;
+    width: 100%;
+    padding-top: 15px;
+    font-size: 1.5rem;
 }
