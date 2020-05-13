@@ -1,0 +1,8 @@
+.menu__list {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    margin-top: 11px;
+    margin-bottom: 0px;
+}

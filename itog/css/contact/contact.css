@@ -1,0 +1,8 @@
+@import url(__address/contact__address.css);
+@import url(__email/contact__email.css);
+@import url(__tel/contact__tel.css);
+@import url(__communication/contact__communication.css);
+.contact {
+    display: flex;
+    max-width: 495px;
+}

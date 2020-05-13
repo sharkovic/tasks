@@ -1,0 +1,16 @@
+.contact__tel {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.contact__tel .icon-phone {
+    content: "";
+    position: absolute;
+    font-size: 1.5rem;
+    top: 0px;
+    left: -42px;
+}

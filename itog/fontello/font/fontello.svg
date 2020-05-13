@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="vector" unicode="&#xe800;" d="M34 350h501v-500h56l445 1000-1002-444v-56z" horiz-adv-x="1056" />
+
+<glyph glyph-name="phone" unicode="&#xe801;" d="M809 175l-106 12c-25 3-50-6-68-24l-77-76c-118 60-215 156-275 274l77 77c18 18 27 43 24 69l-12 105c-5 42-41 73-83 73h-73c-47 0-86-39-83-86 22-356 307-640 663-662 48-3 87 36 87 83v72c0 43-32 78-74 83z" horiz-adv-x="1042" />
+</font>
+</defs>
+</svg>

@@ -1,0 +1,44 @@
+@import url(first-screen.css);
+@import url(header.css);
+@import url(logo/logo.css);
+@import url(menu/menu.css);
+@import url(contact/contact.css);
+@import url(button/button.css);
+@import url(button/theme/button_large.css);
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 1580px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1500px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1430px) {
+    html {
+        font-size: 13px;
+    }
+}

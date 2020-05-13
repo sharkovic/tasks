@@ -1,0 +1,38 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "f4fd73ea0dc8da94270899c5e306188c",
+      "css": "vector",
+      "code": 59392,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M33.9 500H535V1000H590.7L1036 0 33.9 444.4V500Z",
+        "width": 1056
+      },
+      "search": [
+        "vector"
+      ]
+    },
+    {
+      "uid": "ff5e50844ca494f09815ac9c2e8e5a21",
+      "css": "phone",
+      "code": 59393,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M809.3 675.1L703.2 663C677.7 660.1 652.7 668.8 634.7 686.8L557.9 763.4C439.8 703.4 342.9 607.2 282.8 488.8L360 411.8C378 393.8 386.7 368.8 383.8 343.4L371.7 238.4C366.7 196.3 331.2 164.7 288.6 164.7H216.4C169.2 164.7 129.9 203.8 132.9 250.9 155 606.8 440.2 890.9 796.3 913 843.5 915.9 882.8 876.8 882.8 829.7V757.6C883.2 715.5 851.4 680.1 809.3 675.1Z",
+        "width": 1042
+      },
+      "search": [
+        "phone_bluetooth_speaker_24px"
+      ]
+    }
+  ]
+}

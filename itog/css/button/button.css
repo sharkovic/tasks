@@ -1,0 +1,13 @@
+.button {
+    display: inline-block;
+    max-width: 178px;
+    width: 100%;
+    height: 40px;
+    background-size: cover;
+    background: url(/css/button/rectangle.svg) no-repeat;
+    color: white;
+    padding-top: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.125rem;
+}
